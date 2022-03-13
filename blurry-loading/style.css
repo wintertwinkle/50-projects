@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background: url("images/src=http___i0.hdslb.com_bfs_album_f713f3c2ccfe83b2f646e64332ac22717e59bf1b.png&refer=http___i0.hdslb.jfif")
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  /* filter means 滤镜 */
+  filter: blur(70px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
