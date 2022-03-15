@@ -1,5 +1,5 @@
 {
-  "name": "blurry-loading",
+  "name": "blurry-loading-react",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel": "^6.23.0",
     "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
