@@ -17,7 +17,7 @@ textarea.addEventListener("keyup", (e) => {
 
 // Manipulation of DOM like this is inefficient
 // We need a more efficient way to do the operaiton of DOM.
-// maybe virtual DOM is good way.
+// maybe virtual DOM is a good way.
 // [What is Virtual Dom? And Why is it faster?]
 // (https://dev.to/karthikraja34/what-is-virtual-dom-and-why-is-it-faster-14p9)
 
